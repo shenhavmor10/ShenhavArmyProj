@@ -1,0 +1,10 @@
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\bin\Debug\testSR.exe.config
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\bin\Debug\testSR.exe
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\bin\Debug\testSR.pdb
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\bin\Debug\ClassesSolution.exe
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\bin\Debug\ClassesSolution.pdb
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\bin\Debug\ClassesSolution.exe.config
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\obj\Debug\testSR.csproj.CoreCompileInputs.cache
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\obj\Debug\testSR.csproj.CopyComplete
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\obj\Debug\testSR.exe
+C:\Users\Shenhav\Desktop\shenhavArmyNew\testSR\obj\Debug\testSR.pdb

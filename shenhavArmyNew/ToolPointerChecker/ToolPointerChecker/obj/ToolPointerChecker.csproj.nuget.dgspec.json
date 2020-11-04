@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\shenhav.mor\\source\\repos\\ToolPointerChecker\\ToolPointerChecker\\ToolPointerChecker.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\shenhav.mor\\source\\repos\\ToolPointerChecker\\ToolPointerChecker\\ToolPointerChecker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\shenhav.mor\\source\\repos\\ToolPointerChecker\\ToolPointerChecker\\ToolPointerChecker.csproj",
+        "projectName": "ToolPointerChecker",
+        "projectPath": "C:\\Users\\shenhav.mor\\source\\repos\\ToolPointerChecker\\ToolPointerChecker\\ToolPointerChecker.csproj",
+        "packagesPath": "C:\\Users\\shenhav.mor\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shenhav.mor\\source\\repos\\ToolPointerChecker\\ToolPointerChecker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\shenhav.mor\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
