@@ -1,0 +1,14 @@
+C:\Users\Shenhav\Desktop\ShenhavArmyGit\shenhavArmyNew\ConnectionClient\bin\Debug\ConnectionClient.exe.config
+C:\Users\Shenhav\Desktop\ShenhavArmyGit\shenhavArmyNew\ConnectionClient\bin\Debug\ConnectionClient.exe
+C:\Users\Shenhav\Desktop\ShenhavArmyGit\shenhavArmyNew\ConnectionClient\bin\Debug\ConnectionClient.pdb
+C:\Users\Shenhav\Desktop\ShenhavArmyGit\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.csprojAssemblyReference.cache
+C:\Users\Shenhav\Desktop\ShenhavArmyGit\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.csproj.CoreCompileInputs.cache
+C:\Users\Shenhav\Desktop\ShenhavArmyGit\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.exe
+C:\Users\Shenhav\Desktop\ShenhavArmyGit\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.pdb
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\ConnectionClient\bin\Debug\ConnectionClient.exe.config
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\ConnectionClient\bin\Debug\ConnectionClient.exe
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\ConnectionClient\bin\Debug\ConnectionClient.pdb
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.csprojAssemblyReference.cache
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.exe
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\ConnectionClient\obj\Debug\ConnectionClient.pdb

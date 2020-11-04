@@ -1,0 +1,9 @@
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\bin\Debug\netstandard2.0\ToolPointerChecker.deps.json
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\bin\Debug\netstandard2.0\ToolPointerChecker.dll
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\bin\Debug\netstandard2.0\ToolPointerChecker.pdb
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\obj\Debug\netstandard2.0\ToolPointerChecker.csproj.CoreCompileInputs.cache
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\obj\Debug\netstandard2.0\ToolPointerChecker.AssemblyInfoInputs.cache
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\obj\Debug\netstandard2.0\ToolPointerChecker.AssemblyInfo.cs
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\obj\Debug\netstandard2.0\ToolPointerChecker.dll
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\obj\Debug\netstandard2.0\ToolPointerChecker.pdb
+C:\Users\shenhav.mor\source\repos\ToolPointerChecker\ToolPointerChecker\obj\Debug\netstandard2.0\ToolPointerChecker.csprojAssemblyReference.cache
