@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.ComponentModel;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
@@ -17,6 +18,10 @@ using Ookii.Dialogs.Wpf;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
+using System.Data.SqlClient;
+using System.Data;
+using System.Drawing;
+using System.Windows.Markup;
 
 namespace GUI
 {
@@ -31,7 +36,24 @@ namespace GUI
         {
             InitializeComponent();
             main = this;
+            SqlConnection cnn;
+            string connectionString = "Data Source=E560-02\\SQLEXPRESS;Initial Catalog=ToolsDB;User ID=shenhav;Password=1234";
+            cnn = new SqlConnection(connectionString);
+            cnn.Open();
+            SqlCommand command = new SqlCommand("Select tool_name,tool_desc,tool_exe_name from tools_table", cnn);
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                
+                while (reader.Read())
+                {
+                    CheckBox temp = new CheckBox();
+                    temp.Content= reader["tool_name"].ToString();
+                    StackPanelCheckBox.Children.Add(temp);
+                }
+            }
+            Console.WriteLine(cnn);
         }
+
         public void setTextBlock(string data,int number)
         {
             switch (number)
@@ -52,16 +74,25 @@ namespace GUI
             string path;
             if(content=="Connect")
             {
-                path = FileNameTextBox1.Text + ',' + FileNameTextBox2.Text + ',' + FileNameTextBox3.Text + ',' + FileNameTextBox4.Text;
+                path = FileNameTextBox1.Text + ',' + FileNameTextBox2.Text + ',' + FileNameTextBox3.Text + ',' + FileNameTextBox4.Text+','+FileNameTextBoxDest;
                 //Connect.IsEnabled = false;
                 Console.WriteLine("connect1 pressed.");
             }
             else
             {
-                path = FileNameTextBox5.Text + ',' + FileNameTextBox6.Text + ',' + FileNameTextBox7.Text + ',' + FileNameTextBox8.Text;
+                path = FileNameTextBox5.Text + ',' + FileNameTextBox6.Text + ',' + FileNameTextBox7.Text + ',' + FileNameTextBox8.Text + ',' + FileNameTextBoxDest2;
                 //Connect3.IsEnabled = false;
                 Console.WriteLine("connect3 pressed.");
 
+            }
+            string tools = "";
+            foreach(CheckBox tool in StackPanelCheckBox.Children)
+            {
+                tools += tool.Content;
+            }
+            if(tools!="")
+            {
+                path += ',' + tools;
             }
             Thread clientThread;
             clientThread = new Thread(() => ClientConnection.ExecuteClient(path,threadNumber));

@@ -36,69 +36,7 @@ namespace Client
             }
             return documentation;
         }
-        public static void ExecuteServer(int port)
-        {
-            // Establish the local endpoint  
-            // for the socket. Dns.GetHostName 
-            // returns the name of the host  
-            // running the application. 
-            IPHostEntry ipHost = Dns.GetHostEntry(Dns.GetHostName());
-            IPAddress ipAddr = ipHost.AddressList[0];
-            IPEndPoint localEndPoint = new IPEndPoint(ipAddr, port);
-            Socket listener = new Socket(ipAddr.AddressFamily,
-                                     SocketType.Stream, ProtocolType.Tcp);
-            // Using Bind() method we associate a 
-            // network address to the Server Socket 
-            // All client that will connect to this  
-            // Server Socket must know this network 
-            // Address 
-            listener.Bind(localEndPoint);
-
-            // Using Listen() method we create  
-            // the Client list that will want 
-            // to connect to Server 
-            // Creation TCP/IP Socket using  
-            // Socket Class Costructor 
-
-            while (true)
-            {
-                listener.Listen(10);
-                Console.WriteLine("Waiting connection ... ");
-                // Suspend while waiting for 
-                // incoming connection Using  
-                // Accept() method the server  
-                // will accept connection of client 
-                Socket clientSocket = listener.Accept();
-                Console.WriteLine("Accepted");
-
-                /*try
-                {
-                    clientSocket = listener.Accept();
-                }
-                catch(Exception e)
-                {
-                    Console.WriteLine(e);
-                }*/
-                byte[] bytes = new Byte[1024];
-
-                string data;
-                int numByte = clientSocket.Receive(bytes);
-
-                data = Encoding.ASCII.GetString(bytes,
-                                            0, numByte);
-                Task mytask=GetFromRestApi(data.Split(',')[0], data.Split(',')[1]);
-
-                if (data.IndexOf("<EOF>") > -1)
-                    break;
-
-                byte[] message = Encoding.ASCII.GetBytes("Finish");
-                clientSocket.Send(message);
-                clientSocket.Close();
-            }
-
-
-
-        }
+        
         static async Task GetFromRestApi(string sourcePath,string destPath)
         {
             //Communicating with rest api server
@@ -158,9 +96,14 @@ namespace Client
             Console.WriteLine(code.definesAmount);
             Console.ReadLine();*/
         }
-        static async Task Main(string[] args)
+        static void Main(string[] args)
         {
-            
+            string destPath = args[0];
+            string sourcePath = args[1];//.Split(' ')[0];
+            //string destPath = args[1].Split(' ')[1];
+            //Console.WriteLine(destPath);
+            Task task=GetFromRestApi(sourcePath, destPath);
+            task.Start();
         }
     }
 }
