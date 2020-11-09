@@ -27,6 +27,11 @@
         <Button Click="ConnectionButton_Click" Content="Connect" HorizontalAlignment="Left" Margin="204,352,0,0" VerticalAlignment="Top" Width="108" Height="42" FontSize="24" Name="Connect"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="73" Width="302" Name="TextBlock1" x:FieldModifier="public"/>
         <TextBlock HorizontalAlignment="Left" Margin="358,255,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="73" Width="302" Name="TextBlock2" x:FieldModifier="public"/>
+        <StackPanel HorizontalAlignment="Left" Height="270" Margin="704,27,0,0" VerticalAlignment="Top" Width="100" Name="StackPanelCheckBox"/>
+        <Button Click="BrowseButtonFolder_Click" Content="Browse" Name="BrowseDest" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Margin="593,222,0,0" Height="28" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="358,222,0,0" TextWrapping="Wrap" Text="Browse destination Folder for the code." VerticalAlignment="Top" Width="201" Name="FileNameTextBoxDest" />
+        <Button Click="BrowseButtonFolder_Click" Content="Browse" Name="BrowseDest2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="67" Margin="245,222,0,0" Height="28" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="10,222,0,0" TextWrapping="Wrap" Text="Browse destination Folder for the code." VerticalAlignment="Top" Width="201" Name="FileNameTextBoxDest2" />
 
 
     </Grid>

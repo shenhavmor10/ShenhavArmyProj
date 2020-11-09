@@ -1,0 +1,7 @@
+C:\Users\student\source\repos\TestOpenExes\TestOpenExes\bin\Debug\TestOpenExes.exe.config
+C:\Users\student\source\repos\TestOpenExes\TestOpenExes\bin\Debug\TestOpenExes.exe
+C:\Users\student\source\repos\TestOpenExes\TestOpenExes\bin\Debug\TestOpenExes.pdb
+C:\Users\student\source\repos\TestOpenExes\TestOpenExes\obj\Debug\TestOpenExes.csprojAssemblyReference.cache
+C:\Users\student\source\repos\TestOpenExes\TestOpenExes\obj\Debug\TestOpenExes.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\TestOpenExes\TestOpenExes\obj\Debug\TestOpenExes.exe
+C:\Users\student\source\repos\TestOpenExes\TestOpenExes\obj\Debug\TestOpenExes.pdb

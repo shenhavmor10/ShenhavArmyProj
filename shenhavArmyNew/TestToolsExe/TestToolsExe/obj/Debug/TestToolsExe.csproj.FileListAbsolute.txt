@@ -1,0 +1,7 @@
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\TestToolsExe\TestToolsExe\bin\Debug\TestToolsExe.exe.config
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\TestToolsExe\TestToolsExe\bin\Debug\TestToolsExe.exe
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\TestToolsExe\TestToolsExe\bin\Debug\TestToolsExe.pdb
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\TestToolsExe\TestToolsExe\obj\Debug\TestToolsExe.csprojAssemblyReference.cache
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\TestToolsExe\TestToolsExe\obj\Debug\TestToolsExe.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\TestToolsExe\TestToolsExe\obj\Debug\TestToolsExe.exe
+C:\Users\student\Desktop\ShenhavArmy-master\shenhavArmyNew\TestToolsExe\TestToolsExe\obj\Debug\TestToolsExe.pdb
